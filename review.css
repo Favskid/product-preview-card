@@ -1,0 +1,123 @@
+body {
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.main-section {
+    width: 85%;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+
+.product-image {
+    width: 100%;
+    display: block;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px; 
+    
+}
+
+.product-img {
+    padding: 10px 20px;
+}
+
+.section1{
+    font-family: "Montserrat";
+    letter-spacing: 1px;
+}
+
+.section2 {
+    font-family: "Fraunces";
+    font-size: 25px;
+    font-weight: 700;
+    color:hsl(212, 21%, 14%);
+}
+
+.section3{
+    color: hsl(228, 12%, 48%);
+    font-size: 14px;
+    font-family: "Montserrat";
+    font-weight: 500;
+}
+
+.money-section {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.firstSec{
+     font-family: "Fraunces";
+     color:  hsl(158, 36%, 37%);
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.mony {
+    color: hsl(228, 12%, 48%);
+    font-family: "Montserrat";
+    text-decoration: line-through;
+    font-size: 12px;
+}
+
+.button {
+    display: flex;
+    background-color: hsl(158, 36%, 37%); 
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    gap: 1rem;
+}
+
+.button:hover{
+    background-color: hsl(158, 42%, 18%);
+    cursor: pointer;
+}
+
+.button img, .cart{
+    color: hsl(0, 0%, 100%);
+    font-family: "Montserrat";
+    font-weight: 700;
+}
+
+.attribution { 
+    margin-top: 20px;
+    font-size: 11px; 
+    text-align: center; 
+}
+    
+.attribution a {
+     color: hsl(228, 45%, 44%); 
+}
+
+.attribution a:hover {
+    color: hsl(158, 42%, 18%);
+}
+
+@media (min-width: 768px) {
+    .main-section {
+        display: flex;
+        flex-direction: row;
+        max-width: 600px;
+        width: 80%;
+        padding-bottom: 0;
+    }
+
+
+    .product-image{
+        border-top-right-radius: 0; 
+        border-top-left-radius: 12px; 
+        border-bottom-left-radius: 12px;
+        border-bottom-right-radius: 0px;    
+    }
+
+
+}
+
+
