@@ -105,19 +105,27 @@ body {
         display: flex;
         flex-direction: row;
         max-width: 600px;
+        max-height: 380px;
         width: 80%;
         padding-bottom: 0;
     }
 
 
     .product-image{
+        height: 100%;
+        width: 100%;
         border-top-right-radius: 0; 
         border-top-left-radius: 12px; 
         border-bottom-left-radius: 12px;
         border-bottom-right-radius: 0px;    
     }
 
+     .product-img {
+        width: 90%;
+        padding-right: -2rem;
+        
+     
+    }
 
-}
-
+} 
 
